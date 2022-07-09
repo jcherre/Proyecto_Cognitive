@@ -1,0 +1,162 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 90px;
+  pointer-events: none;
+}
+
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+
+.LoginContainer{
+  background-color: #161616;
+}
+.LogoContainer{
+  margin: 1rem 0 2rem 0;
+  color: #26E2B3;
+}
+
+.LoginCard {
+  margin: 1rem;
+  box-shadow: none !important;
+  background-color: #161616 !important;
+  height: 35rem;
+
+}
+
+.LoginContent {
+  background-color: #232323;
+  color: white;
+  border-radius: 15px;
+  border: 0.2px  white;
+  max-width: 20rem;
+  padding-top: 0.5rem !important;
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+  box-shadow: 0.3px 0.3px;
+
+}
+
+.TextInputContainer{
+  margin: 0 0 1rem 0;
+}
+
+.TextFieldStyle > label, fieldset,input {
+  color: white !important;
+  border-color: white !important;
+}
+
+.TextFieldStyle{
+  border-radius: 20px !important;
+}
+
+
+.PrimaryButtonStyle{
+  background-color: #2FC5A1 !important;
+  color: #676767 !important;
+  width: 65% !important;
+  border-radius: 20px !important;
+}
+.SecondaryButtonStyle{
+  border-color: #2FC5A1 !important;
+  color: #2FC5A1 !important;
+  width: 65% !important;
+  border-radius: 20px !important;
+}
+
+.UserPaper{
+  max-width: 60rem;
+  min-height: 3rem;
+  margin: 2rem;
+  padding: 0.5rem;
+  background-color: #161616 !important;
+  color: white !important;
+  border-radius: 10px !important;
+}
+
+.ViewContainer{
+  max-width: 80rem;
+  padding: 0.1rem 2rem 2rem 2rem;
+  background-color: #232323 !important;
+  height: 100vh;
+  border-radius: 20px !important;
+}
+
+.NavbarContentContainer{
+  background-color: #161616 !important;
+  height: 100vh;
+}
+
+.ViewTitle{
+  color: white;
+  display: flex;
+  justify-content: left;
+}
+
+.AppBarStyle{
+  background-color: black !important;
+}
+
+div.DraweStyle{
+  background: #161616 !important;
+}
+
+.LoginTitle{
+  font-weight: 450;
+  font-size: 1.5rem;
+  margin: 0 0 2.3rem 0;
+  border-bottom: 1px solid;
+  width: 100%;
+  padding-bottom: 0.5rem;
+}
+
+.ButtonContainer{
+  margin: 1rem;
+  max-width: 15rem;
+}
+
+.ExtraPadding{
+  margin: 0 0 1.5rem 0 !important;
+}
+
+fieldset.MuiOutlinedInput-notchedOutline{
+  border-radius: 20px !important;
+}
+
+div.MuiInputBase-formControl{
+  height: 40px;
+}
+
+input.MuiInputBase-input{
+  padding: 0.5rem 1rem 0.5rem 1rem !important;
+}
+
+label.MuiInputLabel-formControl{
+  line-height: 1em !important;
+}
+
+.SettingsInputContainer {
+  text-align: left !important;
+  margin: 1rem 1rem 1rem 2rem;
+}
+
+.MuiDrawer-paperAnchorLeft{
+  background-color: #161616 !important;
+  border-right: #000  !important;
+}
